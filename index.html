@@ -3,62 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Votre Site</title>
+    <title>Delicious Bites Menu</title>
     <style>
-        body { font-family: Arial, sans-serif; }
-        nav { background-color: #333; padding: 1em; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; }
-        section { padding: 2em; margin-top: 10px; }
-        footer { background-color: #333; color: white; padding: 1em; text-align: center; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #ff6347; color: white; text-align: center; padding: 1em; }
+        section { padding: 2em; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin: 10px 0; }
+        footer { text-align: center; padding: 2em; background-color: #f0f0f0; }
+        a { color: #ff6347; text-decoration: none; }
     </style>
 </head>
 <body>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#resume">Resume</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <header>
+        <h1>Delicious Bites Menu</h1>
+    </header>
 
-    <section id="about">
-        <h2>About</h2>
-        <p>Entrez votre description ici...</p>
+    <section>
+        <h2>Entrées</h2>
+        <ul>
+            <li><strong>Bruschetta:</strong> Grilled bread topped with a mixture of fresh tomatoes, basil, garlic, and olive oil.</li>
+            <li><strong>Garlic Shrimp:</strong> Succulent shrimp sautéed with garlic, lemon, and parsley.</li>
+            <li><strong>Stuffed Mushrooms:</strong> Mushrooms filled with a savory mix of cheese, garlic, and herbs.</li>
+        </ul>
     </section>
 
-    <section id="work">
-        <h2>Work</h2>
-        <p>Entrez votre contenu de travail ici...</p>
+    <section>
+        <h2>Plats Principaux</h2>
+        <ul>
+            <li><strong>Grilled Salmon:</strong> Fresh salmon grilled to perfection, served with a side of lemon butter sauce.</li>
+            <li><strong>Chicken Alfredo:</strong> Tender chicken breasts tossed in a creamy Alfredo sauce, served over fettuccine pasta.</li>
+            <li><strong>Vegetarian Lasagna:</strong> Layers of pasta, ricotta cheese, spinach, and marinara sauce.</li>
+        </ul>
     </section>
 
-    <section id="resume">
-        <h2>Resume</h2>
-        <form>
-            <label for="name">Nom:</label><br>
-            <input type="text" id="name" name="name"><br><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
-            <label for="file">Téléchargez votre CV:</label><br>
-            <input type="file" id="file" name="file"><br><br>
-            <input type="submit" value="Soumettre">
-        </form>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <form>
-            <label for="name">Nom:</label><br>
-            <input type="text" id="name" name="name"><br><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message"></textarea><br><br>
-            <input type="submit" value="Soumettre">
-        </form>
+    <section>
+        <h2>Desserts</h2>
+        <ul>
+            <li><strong>Tiramisu:</strong> Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.</li>
+            <li><strong>Chocolate Lava Cake:</strong> Decadent chocolate cake with a gooey molten center.</li>
+            <li><strong>Fruit Tart:</strong> Crisp pastry shell filled with creamy custard and topped with fresh seasonal fruits.</li>
+        </ul>
     </section>
 
     <footer>
-        <p>&copy; 2025 Votre Nom. Tous droits réservés.</p>
+        <p><a href="#contact">Contactez-nous</a></p>
     </footer>
 </body>
 </html>
